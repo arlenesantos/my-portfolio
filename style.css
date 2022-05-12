@@ -2,15 +2,55 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-main {
-    margin-top: 6rem;
+
+.text-custom {
+    color: #5A189A;
+}
+
+.bg-custom {
+    background-color: #240046;
 }
 
 /* navbar */
+
+
 .navbar-brand {
     text-transform: uppercase;
-    font-weight: 900;
+    font-weight: 300;
+    letter-spacing: 1.5px;
+
 }
+
+.nav-link {
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1.2px;
+}
+
+/* about me section */
+
+#profile {
+    padding-top: 50px;
+
+}
+
+.btn-custom {
+    color: #fff;
+    background-color: #5A189A;
+    border-color: #5A189A;
+}
+
+.btn-custom:hover {
+    color: #fff;
+    background-color: #240046;
+    border-color: #240046;
+}
+
+
+
+
+
+
 
 /* stack carousel */
 .carousel-item {
@@ -33,6 +73,8 @@ main {
     max-width: auto;
     max-height: 140px;
 }
+
+
 
 /* work section */
 #work {
