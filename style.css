@@ -1,7 +1,7 @@
 body {
     font-family: 'Roboto', sans-serif;
-}
 
+}
 
 .text-custom {
     color: #5A189A;
@@ -12,13 +12,10 @@ body {
 }
 
 /* navbar */
-
-
 .navbar-brand {
     text-transform: uppercase;
     font-weight: 300;
     letter-spacing: 1.5px;
-
 }
 
 .nav-link {
@@ -28,12 +25,6 @@ body {
 }
 
 /* about me section */
-
-#profile {
-    padding-top: 50px;
-
-}
-
 .btn-custom {
     color: #fff;
     background-color: #5A189A;
@@ -46,17 +37,12 @@ body {
     border-color: #240046;
 }
 
-
-
-
-
-
-
 /* stack carousel */
 .carousel-item {
     height: auto;
 }
 
+/*
 .carousel-control-prev {
     margin-left: -3rem;
 }
@@ -64,9 +50,16 @@ body {
 .carousel-control-next {
     margin-right: -3rem;
 }
+*/
 
 .carousel-indicators {
     margin-bottom: -40px;
+
+}
+
+.carousel-dark .carousel-indicators [data-bs-target] {
+    background-color: #5A189A;
+
 }
 
 .img-stack {
@@ -74,11 +67,19 @@ body {
     max-height: 140px;
 }
 
+hr {
+    opacity: 1;
+    margin-bottom: 0;
+}
 
 
 /* work section */
-#work {
-    margin: 10rem auto;
+.card {
+    border-color: #5A189A;
+}
+
+.my-card {
+    border-color: white;
 }
 
 
