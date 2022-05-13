@@ -28,15 +28,13 @@
     <!-- CSS -->
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="wave-hand.css">
-    <link rel="stylesheet" href="bg2.css">
-
 
     <title>Web Development: Arlene Santos Portfolio</title>
 </head>
 
 <body class="d-flex flex-column vh-100">
     <header>
-        <nav class="navbar fixed-top navbar-expand-md navbar-dark bg-custom">
+        <nav class="navbar fixed-top navbar-expand-md navbar-dark bg-gradiente">
             <div class="container-fluid ps-5 pe-3">
                 <p class="navbar-brand mb-0">Arlene Santos</p>
 
@@ -55,7 +53,7 @@
                             <a class="nav-link text-light" href="#works">Works</a>
                         </li>
                         <li class="nav-item me-4">
-                            <a href="#" target="_blank" class="btn btn-custom"><i
+                            <a href="/assets/arlene-santos-resume-en.pdf" class="btn btn-custom" download><i
                                     class="bi bi-file-earmark-arrow-down-fill me-2"></i>Resume</a>
                         </li>
                     </ul>
@@ -66,14 +64,22 @@
 
     <main>
         <!-- Profile -->
-        <section id="profile" class="d-flex align-items-center justify-content-center border">
+        <section id="profile" class="d-flex align-items-center justify-content-center py-5 bg-gradiente">
             <div class="container row">
                 <!-- about me card -->
                 <div class="col-12 col-sm-11 col-md-10 offset-md-1 col-lg-10 offset-lg-1 mb-5 justify-content-center">
-                    <div class="card my-card position-relative">
+                    <div id="profile-card" class="card position-relative">
                         <div class="card-body mb-4">
-                            <h1 class=" h5 card-subtitle mb-2 text-muted text-end">Front End Developer | Full Stack
-                                Developer </h1><br>
+                            <div>
+                                <h1 class="d-sm-none h6 text-muted text-end">
+                                    <span class="d-inline-block pb-2">Front End Developer</span><br>
+                                    <span>Full Stack Developer</span>
+                                </h1><br>
+                            </div>
+                            <div class="d-none d-sm-block">
+                                <h1 class="h6 text-muted text-end">Front End Developer | Full Stack Developer
+                                </h1><br>
+                            </div>
                             <h2 class="h5 card-title text-custom">Hello there! <span class="wave">👋</span> </h2>
                             <p class="card-text">I am Brazilian, based in Lisbon, and currently in the process of career
                                 transition,
@@ -83,16 +89,16 @@
                                 personal projects building web applications, developing both client side (using
                                 <strong>HTML, CSS, Bootstrap</strong>) and server side (using <strong>Node.js,
                                     Express.js, PostgreSQL, Handlebars</strong>) codes. In addition, I am able to use
-                                <strong>Git</strong> as a version controller and I also have familiarity with
-                                <strong>EJS</strong> and <strong>MongoDB</strong>. <br> My next step: learn
+                                <strong>Git</strong> and I also have familiarity with
+                                <strong>EJS</strong> and <strong>MongoDB</strong>. My next step: learn
                                 <strong>React</strong>!
                             </p>
                         </div>
                         <div class="text-center mb-3">
                             <a href="https://www.linkedin.com/in/arlene-santos-976143223/" target="_blank"
-                                class="btn btn-lg btn-custom mx-3"><i class="bi bi-linkedin me-2"></i>LinkedIn</a>
+                                class="btn btn-lg btn-custom mx-3 mb-3"><i class="bi bi-linkedin me-2"></i>LinkedIn</a>
                             <a href="https://github.com/arlenesantos" target="_blank"
-                                class="btn btn-lg btn-custom mx-3"><i class="bi bi-github me-2"></i>GitHub</a>
+                                class="btn btn-lg btn-custom mx-3 mb-3"><i class="bi bi-github me-2"></i>GitHub</a>
 
 
                         </div>
@@ -221,7 +227,7 @@
             <!-- appbel project -->
             <section class="container">
                 <div class="row my-5">
-                    <div class="col-12 order-2 col-md-8 order-md-1  text-end">
+                    <div class="col-12 order-2 col-md-8 order-md-1 px-2">
                         <img src="assets/images/appbel-img.png" alt="Appbel desktop and mobile screenshots"
                             class="img-fluid">
                     </div>
@@ -250,8 +256,7 @@
             <!-- bootcamp project -->
             <section class="container">
                 <div class="row my-5">
-
-                    <div class="col-12 col-md-4 mb-3">
+                    <div class="col-12 mb-3">
                         <h1 class="display-6 text-custom mb-2 ms-2">Bootcamp projects</h1>
                         <div class="card p-2">
                             <p class="card-text">A collection of thirty-three projects developed during the Full
@@ -266,10 +271,9 @@
                             </span>
                         </div>
                     </div>
-                    <div class="col-12 col-md-8" style="border: solid 3px blue; height: 300px">
-
-                    </div>
-
+                    <!-- img placeholder
+                    <div class="col-12 col-md-8" style="border: solid 3px blue; height: 300px"></div>
+                    -->
                 </div>
             </section>
         </section>
@@ -277,7 +281,7 @@
     </main>
 
     <footer class="p-3 mt-auto bg-custom">
-        <p class="text-center text-light m-0">All rights reserved.</p>
+        <p class="small text-center text-light m-0">&copy; All rights reserved.</p>
     </footer>
 
 </body>
