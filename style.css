@@ -84,11 +84,6 @@ main {
     background-color: #5A189A;
 }
 
-.img-stack {
-    max-width: auto;
-    max-height: 140px;
-}
-
 hr {
     opacity: 1;
     margin-bottom: 0;
@@ -111,7 +106,7 @@ hr {
 
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 992px) {
 
     /* carousel */
     .img-stack {
