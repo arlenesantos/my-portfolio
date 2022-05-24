@@ -3,6 +3,8 @@
 
 <head>
     <meta charset="UTF-8">
+    <!--favicon
+    <link rel="shortcut icon" type="image/icon" href="assets/images/favicon.png"> -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
@@ -18,16 +20,16 @@
         rel="stylesheet">
 
     <!-- Bootstrap v5.0.2 Compiled CSS and JS -->
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="assets/styles/bootstrap/css/bootstrap.min.css">
+    <script src="assets/styles/bootstrap/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
 
     <!-- Font Awesome 
     <script src="https://kit.fontawesome.com/51cdf11e68.js" crossorigin="anonymous"></script>-->
 
     <!-- CSS -->
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="wave-hand.css">
+    <link rel="stylesheet" href="assets/styles/main.css">
+    <link rel="stylesheet" href="assets/styles/wave-hand.css">
 
     <title>Web Development: Arlene Santos Portfolio</title>
 </head>
@@ -64,38 +66,35 @@
 
     <main>
         <!-- Profile -->
-        <section id="profile" class="d-flex align-items-center justify-content-center py-5 bg-gradiente">
-            <div class="container row">
+        <section id="profile" class="d-flex align-items-center justify-content-center bg-gradiente pb-sm-5">
+            <div class="container row pb-sm-5">
                 <!-- about me card -->
-                <div class="col-12 col-sm-11 col-md-10 offset-md-1 col-lg-10 offset-lg-1 mb-5 justify-content-center">
+                <div class="col-12 col-sm-11 col-md-10 offset-md-1 col-lg-10 offset-lg-1 justify-content-center pb-5">
                     <div id="profile-card" class="card position-relative">
-                        <div class="card-body mb-4">
-                            <div>
-                                <h1 class="d-sm-none h6 text-muted text-end">
-                                    <span class="d-inline-block pb-2">Front End Developer</span><br>
-                                    <span>Full Stack Developer</span>
-                                </h1><br>
-                            </div>
-                            <div class="d-none d-sm-block">
-                                <h1 class="h6 text-muted text-end">Front End Developer | Full Stack Developer
-                                </h1><br>
-                            </div>
-                            <h2 class="h5 card-title text-custom">Hello there! <span class="wave">👋</span> </h2>
-                            <p class="card-text">I am Brazilian, based in Lisbon, and currently in the process of career
-                                transition,
-                                looking for an opportunity to work as <strong>Web Developer</strong>.</p>
+                        <div class="card-body pb-5">
+                            <h1 class="d-sm-none h6 text-muted text-end">
+                                <span class="d-inline-block pb-2">Front End Developer</span><br>
+                                <span>Full Stack Developer</span>
+                            </h1>
+                            <h1 class="d-none d-sm-block h6 text-muted text-end">Front End Developer | Full Stack
+                                Developer
+                            </h1>
+                            <h2 class="h5 card-title text-custom pt-3">Hello there! <span class="wave">👋</span> </h2>
+                            <p class="card-text">I am Arlene, a Brazilian living in Lisbon, and currently in the process
+                                of career transition, looking for an opportunity to work as <strong>Web
+                                    Developer</strong>.</p>
                             <p class="card-text"> I have been studying web development since 2020. In 2021, I joined an
                                 intense <strong>Full Stack JavaScript Bootcamp</strong> program. I have been working on
                                 personal projects building web applications, developing both client side (using
                                 <strong>HTML, CSS, Bootstrap</strong>) and server side (using <strong>Node.js,
                                     Express.js, PostgreSQL, Handlebars</strong>) codes. In addition, I am able to use
                                 <strong>Git</strong> and I also have familiarity with
-                                <strong>EJS</strong> and <strong>MongoDB</strong>. My next step: learn
+                                <strong>EJS</strong> and <strong>MongoDB</strong>. My next step in this journey: learn
                                 <strong>React</strong>!
                             </p>
                         </div>
-                        <div class="text-center mb-3">
-                            <a href="https://www.linkedin.com/in/arlene-santos-976143223/" target="_blank"
+                        <div class="text-center pb-3 pt-xxl-4">
+                            <a href="https://www.linkedin.com/in/arlenesantos89/" target="_blank"
                                 class="btn btn-lg btn-custom mx-3 mb-3"><i class="bi bi-linkedin me-2"></i>LinkedIn</a>
                             <a href="https://github.com/arlenesantos" target="_blank"
                                 class="btn btn-lg btn-custom mx-3 mb-3"><i class="bi bi-github me-2"></i>GitHub</a>
@@ -132,17 +131,19 @@
                         <div class="carousel-item active">
                             <div class="row d-flex align-items-center">
                                 <div class="col text-center">
-                                    <img src="assets/images/javascript.png" alt="JavaScript logo"
+                                    <img src="assets/images/stack-icons/javascript.png" alt="JavaScript logo"
                                         class=" img-fluid img-stack">
                                 </div>
                                 <div class="col text-center">
-                                    <img src="assets/images/html5.png" alt="HTML5 logo" class=" img-fluid img-stack">
+                                    <img src="assets/images/stack-icons/html.png" alt="HTML5 logo"
+                                        class=" img-fluid img-stack">
                                 </div>
                                 <div class="col text-center">
-                                    <img src="assets/images/css3.png" alt="CSS3 logo" class=" img-fluid img-stack">
+                                    <img src="assets/images/stack-icons/css.png" alt="CSS3 logo"
+                                        class=" img-fluid img-stack">
                                 </div>
                                 <div class="col text-center">
-                                    <img src="assets/images/bootstrap.png" alt="Bootstrap logo"
+                                    <img src="assets/images/stack-icons/bootstrap.png" alt="Bootstrap logo"
                                         class="img-fluid img-stack">
                                 </div>
                             </div>
@@ -150,19 +151,19 @@
                         <div class="carousel-item">
                             <div class="row d-flex align-items-center">
                                 <div class="col text-center">
-                                    <img src="assets/images/icons/node.png" alt="Node.js logo"
+                                    <img src="assets/images/stack-icons/node.png" alt="Node.js logo"
                                         class=" img-fluid img-stack">
                                 </div>
                                 <div class="col text-center">
-                                    <img src="assets/images/icons/express.png" alt="Express.js logo"
+                                    <img src="assets/images/stack-icons/express.png" alt="Express.js logo"
                                         class=" img-fluid img-stack">
                                 </div>
                                 <div class="col text-center">
-                                    <img src="assets/images/icons/mongodb.png" alt="MongoDB logo"
+                                    <img src="assets/images/stack-icons/mongodb.png" alt="MongoDB logo"
                                         class="img-fluid img-stack">
                                 </div>
                                 <div class="col text-center">
-                                    <img src="assets/images/icons/postgresql.png" alt="PostgreSQL logo"
+                                    <img src="assets/images/stack-icons/postgres.png" alt="PostgreSQL logo"
                                         class=" img-fluid img-stack">
                                 </div>
                             </div>
@@ -170,17 +171,19 @@
                         <div class="carousel-item">
                             <div class="row d-flex align-items-center">
                                 <div class="col text-center">
-                                    <img src="assets/images/icons/handlebars.png" alt="Handlebars logo"
+                                    <img src="assets/images/stack-icons/handlebars.png" alt="Handlebars logo"
                                         class=" img-fluid img-stack">
                                 </div>
                                 <div class="col text-center">
-                                    <img src="assets/images/icons/ejs.png" alt="EJS logo" class=" img-fluid">
+                                    <img src="assets/images/stack-icons/ejs.png" alt="EJS logo"
+                                        class=" img-fluid img-stack">
                                 </div>
                                 <div class="col text-center">
-                                    <img src="assets/images/icons/git.png" alt="Git logo" class="img-fluid img-stack">
+                                    <img src="assets/images/stack-icons/git.png" alt="Git logo"
+                                        class="img-fluid img-stack">
                                 </div>
                                 <div class="col text-center">
-                                    <img src="assets/images/icons/react.png" alt="React.js logo"
+                                    <img src="assets/images/stack-icons/react.png" alt="React.js logo"
                                         class=" img-fluid img-stack">
                                 </div>
                             </div>
@@ -198,7 +201,7 @@
 
 
         <!-- Work -->
-        <section id="works" class="py-5">
+        <section id="works" class="py-3">
 
             <!-- coffee shop project -->
             <section class="container">
@@ -212,6 +215,7 @@
                                 business management including a dashboard page. </p>
                             <span class="me-2 text-end">
                                 <!-- hospedar!! -->
+                                <span class="text-muted">personal project</span>
                                 <a href="https://github.com/arlenesantos/Coffeeshop" target="_blank"
                                     class="ms-3 text-custom">
                                     <i class="bi bi-box-arrow-up-right fs-3"></i></a>
@@ -221,8 +225,12 @@
                             </span>
                         </div>
                     </div>
-                    <div class="col-12 col-md-8" style="border: solid 3px blue; height: 300px">
-
+                    <div class="col-12 col-md-8 d-flex align-items-center">
+                        <div class="ratio ratio-16x9 ">
+                            <video controls loop autoplay>
+                                <source src="assets/coffeeshop.mp4" type="video/mp4">
+                            </video>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -244,6 +252,7 @@
                                 its
                                 GitHub repository.</p>
                             <span class="me-2 text-end">
+                                <span class="text-muted">personal project</span>
                                 <a href="https://arlenesantos.github.io/Appbel/" target="_blank"
                                     class="ms-3 text-custom">
                                     <i class="bi bi-box-arrow-up-right fs-3"></i></a>
@@ -260,7 +269,7 @@
             <section class="container">
                 <div class="row my-5">
                     <div class="col-12 mb-3">
-                        <h1 class="display-6 text-custom mb-2 ms-2">Bootcamp projects</h1>
+                        <h1 class="display-6 text-custom mb-2 ms-2">JavaScript Bootcamp Projects</h1>
                         <div class="card p-2">
                             <p class="card-text">A collection of thirty-three projects developed during the Full
                                 Stack
@@ -274,9 +283,34 @@
                             </span>
                         </div>
                     </div>
-                    <!-- img placeholder
-                    <div class="col-12 col-md-8" style="border: solid 3px blue; height: 300px"></div>
-                    -->
+                </div>
+            </section>
+
+            <!-- next project -->
+            <section class="container pt-md-5">
+                <div class="row my-5 d-flex justify-content-center">
+                    <div class="d-none d-sm-block col-sm-6 order-sm-1 col-md-5 order-md-1 col-xl-4 order-xl-1 px-2">
+                        <img src="assets/images/coming-soon.png"
+                            alt="a screen displaying some code to represent the next project"
+                            class="img-fluid img-thumbnail">
+                    </div>
+                    <div
+                        class="col-12 order-1 col-sm-6 order-sm-2 col-md-6 order-md-1 col-xl-5 order-xl-1 mb-3 d-flex flex-column justify-content-center">
+                        <h1 class="display-6 text-custom mb-2 ms-2">Next Work</h1>
+                        <div class="card p-2">
+                            <br>
+                            <p class="card-text">Coming soon...</p>
+                            <p class="card-text text-custom">In the meanwhile, please visit my GitHub and LinkedIn
+                                profiles and feel free to contact me!</p>
+                            <span class="me-2 text-center text-md-end">
+                                <a href="https://www.linkedin.com/in/arlenesantos89/" target="_blank"
+                                    class="ms-3 text-custom">
+                                    <i class="bi bi-linkedin fs-1"></i></a>
+                                <a href="https://github.com/arlenesantos" target="_blank" class="ms-3 text-custom">
+                                    <i class="bi bi-github fs-1"></i></a>
+                            </span>
+                        </div>
+                    </div>
                 </div>
             </section>
         </section>
@@ -284,7 +318,7 @@
     </main>
 
     <footer class="p-3 mt-auto bg-custom">
-        <p class="small text-center text-light m-0">&copy; All rights reserved.</p>
+        <p class="small text-center text-light m-0">&copy; 2022 Arlene Santos</p>
     </footer>
 
 </body>
